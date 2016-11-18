@@ -1,7 +1,7 @@
-# ATONIX #
+# ANTONIX #
 ANTONIX OS is a hobby operating system kernel built from scratch, mainly as a thesis project at University of Rousse "Angel Kanchev", Bulgaria.
 
-It is written in C entirely and is designed for IA-32 architecture group. Following are the major features which the kernel supports:
+It is written in C entirely and is designed for the IA-32 architecture group. Following are the major features which the kernel supports:
  - Higher half memory model - address beyond 3GB mark is used for kernel and below is for user space.
  - Three-layer memory manager - physical memory manager, heap manager (responsible for mapping memory heaps to processes) and end-user memory manager (scatters heaps into smaller memory blocks, and provides those by malloc() and friends API)
  - Virtual file system - supports memory files, mounting of devices (by drivers) and mounting of "real" file systems to mountpoint inside the virtual file system.
@@ -47,7 +47,7 @@ It is written in C entirely and is designed for IA-32 architecture group. Follow
 Henjin is a work-in-progress window compositing manager and display server. It uses NXGI underneath to draw windows and controls and so on.
 The display server part is responsible for changing video resolution and translating mouse driver and keyboard events to Henjin messages (HJ_MESSAGE).
 
-![Alt text](/docs/Henjin-01.png)
+![Alt text](/docs/henjin-01.png)
 
 ## License ##
 For license information, see LICENSE.md
