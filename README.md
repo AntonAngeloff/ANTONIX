@@ -25,6 +25,8 @@ It is written in C entirely and is designed for the IA-32 architecture group. Fo
  - FAT12 and FAT16 filesystem read-only drivers.
  - PCI bus minidriver - currently supports only scanning the bus. IRQ and memory remapping for PCI devices is currently not available.
  - VESA video driver - BGA-based initialization of video mode is only supported currently, this means it is not available on real hardware, but only some emulators.
+ - Parallel ATA/ATAPI driver (currently PIO mode only).
+ - ISO9660 file system read-only driver.
  
 ## Subsystems ##
  - NXA (ANTONIX Audio interface) - a simple API for playing sound, which is used as abstract layer around the sound card driver interface.
