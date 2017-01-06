@@ -473,3 +473,25 @@ int isspace (int c)
 		return FALSE;
 	}
 }
+
+int	__nxapi memcmp(const void *ptr1, const void *ptr2, size_t num)
+{
+	const uint8_t *p1 = ptr1;
+	const uint8_t *p2 = ptr2;
+
+	while (num--) {
+		if (*p1 == *p2) {
+			continue;
+		}
+
+		if (*p1 > *p2) {
+			return 1;
+		}
+
+		if (*p1 < *p2) {
+			return -1;
+		}
+	}
+
+	return 0;
+}

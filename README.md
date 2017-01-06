@@ -1,5 +1,5 @@
 # ANTONIX #
-ANTONIX OS is a hobby operating system kernel built from scratch, mainly as a thesis project at University of Rousse "Angel Kanchev", Bulgaria.
+ANTONIX OS is a hobby operating system kernel built from scratch, mainly as a graduation project at University of Rousse "Angel Kanchev", Bulgaria.
 
 It is written in C entirely and is designed for the IA-32 architecture group. Following are the major features which the kernel supports:
  - Higher half memory model - address beyond 3GB mark is used for kernel and below is for user space.
