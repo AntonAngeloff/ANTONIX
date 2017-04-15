@@ -1,5 +1,4 @@
 Copyright (c) 2015-2016 University of Rousse "Angel Kanchev". All rights reserved.
-
 Author: Anton Angelov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -13,8 +12,8 @@ furnished to do so, subject to the following conditions:
   2. Redistributions in binary form must reproduce the above copyright
      notice, this list of conditions and the following disclaimers in the
      documentation and/or other materials provided with the distribution.
-  3. Neither the names of the ToAruOS Kernel Development Team, Kevin Lange,
-     nor the names of its contributors may be used to endorse
+  3. Neither the names of the University of Rousse "Angel Kanchev", Anton 
+     Angelov, nor the names of its contributors may be used to endorse
      or promote products derived from this Software without specific prior
      written permission.
 
